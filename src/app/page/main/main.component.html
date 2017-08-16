@@ -1,0 +1,11 @@
+<h1>{{locData.name}}</h1>
+<div>
+	<p>Humidity:{{locData.main.humidity}}</p>
+	<p>Temperature (Average): {{1.8 * (locData.main.temp - 273) + 32}}</p>
+	<p>Temperature (High): {{1.8 * (locData.main.temp_min - 273) + 32}}</p>
+	<p>Temperature (Low): {{1.8 * (locData.main.temp_max - 273) + 32}}</p>
+	<p>Status:{{locData.weather[0].description}}</p>
+</div>
+<div>
+	<img src="">
+</div>
